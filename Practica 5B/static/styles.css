@@ -1,0 +1,73 @@
+@import url("column.css");
+@import url("createModal.css");
+@import url("editModal.css");
+
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    position: fixed;
+    top: 10px;
+    right:10px
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 3px solid #ccc;
+
+    background-color: #f1f1f1;
+}
+
+
+select:focus {
+    border: 3px solid #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border: 3px solid #555;
+}

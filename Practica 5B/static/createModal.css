@@ -1,0 +1,19 @@
+.createModal {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 20%;
+    width: 50%;
+    border:1px solid #0F0F0F;
+    border-radius: 20px;
+    animation: fadeIn 1s;
+    padding: 30px;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

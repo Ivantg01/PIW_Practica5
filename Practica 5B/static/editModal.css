@@ -1,0 +1,30 @@
+.editModal {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: right;
+    height: 100%;
+    width: 35%;
+    border:1px solid cadetblue;
+    border-radius: 20px;
+    animation: fadeIn 1s;
+    margin-left: auto;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 90%;
+    width: 60%;
+}
+
+.inputAndSelector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
